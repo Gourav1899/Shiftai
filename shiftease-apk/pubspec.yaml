@@ -1,0 +1,60 @@
+name: shiftease
+description: ShiftEase — AI Movers & Packers Platform
+publish_to: none
+version: 2.0.0+1
+
+environment:
+  sdk: ">=3.1.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State
+  provider: ^6.1.1
+
+  # HTTP & Socket
+  http: ^1.1.2
+  socket_io_client: ^2.0.3+1
+
+  # Storage
+  shared_preferences: ^2.2.2
+  flutter_secure_storage: ^9.0.0
+
+  # UI
+  google_fonts: ^6.1.0
+  cached_network_image: ^3.3.1
+  lottie: ^3.0.0
+  pinput: ^3.0.1
+
+  # Maps & Location
+  google_maps_flutter: ^2.5.3
+  geolocator: ^10.1.0
+  permission_handler: ^11.2.0
+
+  # Camera & Files
+  image_picker: ^1.0.7
+  path_provider: ^2.1.2
+
+  # Notifications
+  firebase_core: ^2.24.2
+  firebase_messaging: ^14.7.10
+  flutter_local_notifications: ^16.3.0
+
+  # Payment
+  razorpay_flutter: ^1.3.5
+
+  # Utils
+  intl: ^0.19.0
+  url_launcher: ^6.2.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
